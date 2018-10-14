@@ -1,1 +1,138 @@
+/* Base Styles */
 
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: "Lora", sans-serif;
+	text-align: center;
+	color: #FFD700;
+	font-size: 52px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+body {
+	
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 768px;
+	background-repeat: no-repeat; 
+}
+
+p {
+	padding: 30px 25px 15px 25px; /*Üst, Sağ, Alt, Sol */
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	
+}
+
+section {
+	position: relative;
+	font-size:18px;	
+	padding: 15px 10px 15px 10px;
+	font-family: sans-serif;
+	border:	1px solid black;
+	background-color: #F5F5F5;
+	color: black;
+	border-radius: 100px 0px 100px 100px;
+	-moz-border-radius: 100px 0px 100px 100px;
+	-webkit-border-radius: 100px 0px 100px 100px;
+	border: 2px solid #FFD700;
+}
+
+#chicken {
+	border: 1px solid black;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 125%;
+	text-align: center;
+	padding: 5px;
+	width: 150px;
+	background-color: #000000;
+	color: #FFD700;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#beef {
+	border: 1px solid black;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 125%;
+	text-align: center;
+	padding: 5px;
+	width: 150px;
+	background-color: #000000;
+	color: #FFD700;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#sushi {
+	border: 1px solid black;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 125%;
+	text-align: center;
+	padding: 5px;
+	width: 150px;
+	background-color: #000000;
+	color: #FFD700;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.row {
+	width: 100%;
+}
+
+/* Desktop view */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .col-sm-12 {
+ 	float: left;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
